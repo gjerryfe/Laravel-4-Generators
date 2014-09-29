@@ -22,6 +22,12 @@ return [
 
     'view_template_path' => 'vendor/way/generators/src/Way/Generators/templates/view.txt',
 
+    'view_create_template_path' => 'vendor/way/generators/src/Way/Generators/templates/views/create.txt',
+
+    'view_index_template_path' => 'vendor/way/generators/src/Way/Generators/templates/views/index.txt',
+
+    'view_edit_template_path' => 'vendor/way/generators/src/Way/Generators/templates/views/edit.txt',
+
 
     /*
     |--------------------------------------------------------------------------
