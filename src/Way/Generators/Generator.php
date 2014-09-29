@@ -1,4 +1,5 @@
 <?php namespace Way\Generators;
+/* test */
 
 use Way\Generators\Filesystem\Filesystem;
 use Way\Generators\Compilers\TemplateCompiler;
