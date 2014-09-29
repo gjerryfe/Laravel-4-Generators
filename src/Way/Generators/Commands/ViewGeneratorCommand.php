@@ -68,7 +68,7 @@ class ViewGeneratorCommand extends GeneratorCommand {
      */
     protected function getTemplatePath()
     {
-        $viewName = array_pop(explode(".", $this->argument('viewName')));
+        $viewName = end(explode(".", $this->argument('viewName')));
         switch($viewName){
             case "create": $path = "view_create_template_path"; break;
             case "index": $path = "view_index_template_path"; break;
