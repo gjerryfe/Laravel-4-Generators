@@ -74,6 +74,7 @@ class ViewGeneratorCommand extends GeneratorCommand {
             case "create": $path = "view_create_template_path"; break;
             case "index": $path = "view_index_template_path"; break;
             case "edit": $path = "view_edit_template_path"; break;
+            case "show": $path = "view_show_template_path"; break;
             default: $path = "view_template_path";
         }
         return $this->getPathByOptionOrConfig('templatePath', $path);

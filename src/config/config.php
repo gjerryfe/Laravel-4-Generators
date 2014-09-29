@@ -28,6 +28,8 @@ return [
 
     'view_edit_template_path' => 'vendor/way/generators/src/Way/Generators/templates/views/edit.txt',
 
+    'view_show_template_path' => 'vendor/way/generators/src/Way/Generators/templates/views/show.txt',
+
 
     /*
     |--------------------------------------------------------------------------
